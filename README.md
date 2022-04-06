@@ -14,9 +14,9 @@ Steps:
               npm install
               nodemon index.js
 
-        4.**For Running the react app**:
+        4. Then run the react app:
 
-            Go inside the crudapp.Run the following commands:
+            Go inside the crudapp folder.Run the following commands:
 
             npm install
             npm start
