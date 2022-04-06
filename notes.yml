@@ -1,0 +1,60 @@
+To start failed mongod:
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
+
+npm install express mongoose mongodb body-parser nodemon pm2 helmet cors
+
+In Postman:
+
+to fill in the data: to add user
+Post: http://localhost:3000/user
+In body:
+{
+        "fullname": "latika",
+        "email": "latika@innovaccer.com",
+        "gender": "female",
+        "phone": "98765432",
+        "password":"123"
+        
+}
+ to login:
+ POST: http://localhost:3000/user/login
+ In body:
+{
+        "email": "latika@innovaccer.com",
+        "password":"123"       
+}
+
+jwt token : jsonwebtoken
+npm install jsonwebtoken
+
+validating the token:
+npm install express-jwt
+
+npm install bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+npm install react-router-dom
+npm install redux react-redux
+npm install axios
+In Index.js of react app:
+                import React from 'react';
+                import ReactDOM from 'react-dom';
+                import './index.css';
+                import App from './App';
+                import reportWebVitals from './reportWebVitals';
+                import { createRoot } from "react-dom/client"
+                import { BrowserRouter } from 'react-router-dom';
+                import { Provider } from 'react-redux';
+                import crudStore from "./Store/crud-store"
+
+                const container = document.getElementById("root");
+                const root = createRoot(container);
+                root.render(
+                <BrowserRouter>
+                <Provider store={crudStore}>
+                <App />
+                </Provider>
+                </BrowserRouter>
+                );
+
+                reportWebVitals();
