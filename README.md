@@ -9,14 +9,13 @@ Steps:
 
 2. Start Robo3t 
 
-3.Run the server by using:
-  
-    Run 
-      **npm install**
-      **nodemon index.js**
+3.Run the server by running following commands:
+   
+      npm install
+      nodemon index.js
     
-4.**For Running the react app**:Go inside the crudapp.
+4.**For Running the react app**:Go inside the crudapp.Run the following commands:
 
-    Run ## npm install
-    ## npm start
+    npm install
+    npm start
     
