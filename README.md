@@ -5,14 +5,16 @@ Steps:
 
 1.Run the mongod service 
 
-  ## systemctl start mongod
+  **systemctl start mongod**
 
 2. Start Robo3t 
 
 3.Run the server by using:
   
-    Run ## npm install
-    ## nodemon index.js
+    Run 
+      **npm install**
+      **nodemon index.js**
+    
 4.**For Running the react app**:Go inside the crudapp.
 
     Run ## npm install
