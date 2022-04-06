@@ -2,6 +2,7 @@
 This is application which adds and delete the users ans these changes gets reflected back in the database.
 
 Steps:
+
 1.Run the mongod service 
 
   ## systemctl start mongod
@@ -10,7 +11,7 @@ Steps:
 
 3.Run the server by using:
   
-    Run # #npm install
+    Run ## npm install
     ## nodemon index.js
 4.**For Running the react app**:Go inside the crudapp.
 
