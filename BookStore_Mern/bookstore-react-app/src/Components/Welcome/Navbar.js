@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
-import './Navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-color_ justify-content-center">
@@ -8,7 +7,7 @@ const Navbar = () => {
             <div className="container-fluid">
                 <Link to="/" className="btn btn-danger text-light justify-content-left">Book Store APP</Link>
                 <ul className="navbar-nav mr-auto">
-                    <li className="navbar-item ">
+                    <li className="navbar-item">
                         <Link to="/signin" className="nav-link text-light"> SignUp</Link>
                     </li>
                     <li className="navbar-item">
@@ -18,6 +17,8 @@ const Navbar = () => {
                 </ul>
             </div>
         </nav>
+
+
     )
 }
 

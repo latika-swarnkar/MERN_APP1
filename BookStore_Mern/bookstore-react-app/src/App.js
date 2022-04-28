@@ -9,8 +9,8 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Welcome />} />
-        <Route path="/" element={<ListBooks />} />
-        <Route path="/book/add" element={<AddBook />} />
+        {/* <Route path="/" element={<ListBooks />} /> */}
+        {/* <Route path="/book/add" element={<AddBook />} /> */}
       </Routes>
     </div>
   );
