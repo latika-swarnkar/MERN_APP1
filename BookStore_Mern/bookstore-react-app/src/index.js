@@ -6,15 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import { createRoot } from "react-dom/client"
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-// import crudStore from "./Store/crud-store"
+import crudStore from "./Store/crud-store"
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <BrowserRouter>
-    {/* <Provider store={crudStore}> */}
-    <App />
-    {/* </Provider> */}
+    <Provider store={crudStore}>
+      <App />
+    </Provider>
   </BrowserRouter>
 );
 

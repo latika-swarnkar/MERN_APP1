@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom"
+import ListBooks from "../ListBooks";
 import "./Welcome.css"
 const Welcome = () => {
     return (
@@ -14,6 +15,8 @@ const Welcome = () => {
                     <Link to="/signin" className="btn btn-light"> Get Started</Link>
                 </div>
             </div>
+
+            <ListBooks />
 
         </div>
 
